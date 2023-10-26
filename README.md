@@ -3,11 +3,10 @@
 1. load data from tensorflow datasets
    ```python
 fashion_mnist = tf.keras.datasets.fashion_mnist
-
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
-   ```
-2. explore data and display shape and dim of those four arrays
-3. plot first images in train_models and see the range of pixels
+  ```
+3. explore data and display shape and dim of those four arrays
+4. plot first images in train_models and see the range of pixels
 ```python
 plt.figure()
 plt.imshow(train_images[0])
