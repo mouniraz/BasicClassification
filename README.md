@@ -18,7 +18,6 @@ plt.show()
 4. scale images to be between 0 and 1 (deviding by 255)
    ```python
    train_images = train_images / 255.0
-
    test_images = test_images / 255.0
    ```
 5. plot the 20 first images 
